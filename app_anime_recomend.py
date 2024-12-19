@@ -5,8 +5,8 @@ import requests
 from io import BytesIO
 
 # GitHub URLs for the dataset and similarity matrix
-DATA_URL = "C:\\Users\\Manish\\Downloads\\DATA SCIENCE ASSIGNMENT EXCELR SOLUTION\\anime_similarity.pkl"
-MODEL_URL = "C:\\Users\\Manish\\Downloads\\DATA SCIENCE ASSIGNMENT EXCELR SOLUTION\\anime_data.pkl"
+DATA_URL = "C://Users//Manish//Downloads//DATA SCIENCE ASSIGNMENT EXCELR SOLUTION//anime_similarity.pkl"
+MODEL_URL = "C://Users//Manish//Downloads//DATA SCIENCE ASSIGNMENT EXCELR SOLUTION//anime_data.pkl"
 
 # Load anime dataset
 anime_df = pd.read_csv(DATA_URL)
